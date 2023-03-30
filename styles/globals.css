@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: #0a753a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0a753a;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  border: none;
+  border-radius: 43px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #044d25;
+}
+
+.main-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  gap: 82px;
+}
+
+.ingreso-button {
+  padding: 10px 150px;
+}
+
+.advertencia-ingreso {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.31);
+}
+
+.ingreso-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+  text-align: center;
+}
